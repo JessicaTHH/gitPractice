@@ -21,10 +21,59 @@ $ cd desktop
 $ mkdir gitPractice
 $ cd gitPractice
 ```
-You can make sure your location by entering pwd command.(should be at gitPractice folder.)
+You can make sure your location by entering 'pwd' command.(should be at gitPractice folder.)
 ```bash
 $ pwd
 /Users/Spencer/desktop/gitPractice
 ```
 
-2. 
+2. Create 2 new files, a html file and another javaScript file.
+```bash
+$ touch index.html
+$ touch app.js
+```
+
+Edit these 2 files in your text editor(atom, vs code, sublime...etc.).
+
+3. To start a new repository, enter git command 'git init', then the message will show if the new repository has been successfully set up.
+```bash
+$ git init
+Initialized empty Git repository in /Users/Spencer/Desktop/gitPractice/.git/
+```
+4. Use 'git config' command to identify the user of this repository.
+```bash
+$ git config --global user.name "John Doe"
+$ git config --global user.email "jd7539@example.com"
+```
+You can check your config input with command 'git config --list'
+```bash
+$ git config --list
+user.name=John Doe
+user.email=johndoe@example.com
+```
+
+5. Now, you can add files to your repository by using 'git add' command.
+
+```bash
+$ git add . //adding all the files in the folder to the repository.
+$ git add *.html  //adding all the HTML files in the folder to the repository.
+```
+
+6. After you've added files to the repository, 'git status' command will show the status of all files that has been added.
+
+```bash
+$ git status
+
+Changes to be committed:
+// modified files have been added but not yet committed.
+
+Changes not staged for commit:
+// modified files have not been added nor committed.
+
+Untracked files:
+// a whole new file to the repository.
+```
+There are 3 file stages in git: untracked, staged, committed.
+  Untracked files- The file is totally new to the repository. It has not been added, neither being committed.
+  Staged- The file has been added to the repository.
+  Committed- The file has not only being added to the repository, also it has been committed to the repository.
