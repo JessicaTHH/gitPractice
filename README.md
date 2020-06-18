@@ -16,7 +16,7 @@ git version 2.19.1
 
 ## Create and modify files:
 
-1. Go to desktop, create and open new folder 'gitPractice'
+- 1. Go to desktop, create and open new folder 'gitPractice'
 ```bash
 $ cd desktop
 $ mkdir gitPractice
@@ -37,7 +37,7 @@ $ touch app.js
 *Edit these 2 files in your text editor(atom, vs code, sublime...etc.).*
 
 
-3. To start a new repository using `git init`, then the message will show if the new repository has been successfully set up.
+3. To start a new repository, use `git init`, then a message will show if it's been set up successfully.
 ```bash
 $ git init
 Initialized empty Git repository in /Users/Spencer/Desktop/gitPractice/.git/
