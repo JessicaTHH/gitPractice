@@ -13,11 +13,9 @@ Git v2.19.1 and macOS Sierra v10.12.6
 $ git version
 git version 2.19.1
 ```
-## Steps to practice git command:
- Steps below are what I used to practice git command for beginners.
 
-**Create and modify files:**
----
+##Create and modify files:
+
 1. Go to desktop, create and open new folder 'gitPractice'
 ```bash
 $ cd desktop
@@ -56,13 +54,13 @@ user.name=John Doe
 user.email=johndoe@example.com
 ```
 
-5. Now, you can add files to your repository by using `git add`.\
-  add .: adding all the files in the folder to the repository.\
-  add \*.html: adding all the HTML files in the folder to the repository.
+5. Now, you can add files to your repository by using `git add`.
 ```bash
 $ git add .
 $ git add *.html  
 ```
+add .: adding all the files in the folder to the repository.\
+add \*.html: adding all the HTML files in the folder to the repository.\
 
 6. After you've added files to the repository, `git status` will show the status of all files that has been added.
 
