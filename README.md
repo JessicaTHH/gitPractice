@@ -14,9 +14,11 @@ $ git version
 git version 2.19.1
 ```
 
-## * Create and modify files:
+## Create and modify files:
 
  1. Go to desktop, create and open new folder 'gitPractice'
+
+ 
 ```bash
 $ cd desktop
 $ mkdir gitPractice
