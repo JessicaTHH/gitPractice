@@ -197,13 +197,10 @@ $ touch README.md
 This [helpful website](https://commonmark.org/help/) get me through formatting my README file. They also provide a [interactive tutorial](https://commonmark.org/help/tutorial/index.html), which is easy to learn and understand what is markdown text file format.
 
 ---
-## Last but least...
+## Last but not least...
 
 **always remember 3 steps to finish a project:**
 
 1. `$ git add .` : adding all the completed files to the repository.
 2. `$ git commit -m '(message)' ` : adding the message of final edit.
 3. `$ git push .` : push all the commitment to the remote repository on github.
-
-
-JTHH, 200618
