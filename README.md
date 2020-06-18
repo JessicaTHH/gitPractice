@@ -37,12 +37,12 @@ $ touch app.js
 *Edit these 2 files in your text editor(atom, vs code, sublime...etc.).*
 
 
- 3. To start a new repository, use `git init`, then a message will show if it's been set up successfully.
+ **3. To start a new repository, use `git init`, then a message will show if it's been set up successfully.**
 ```bash
 $ git init
 Initialized empty Git repository in /Users/Spencer/Desktop/gitPractice/.git/
 ```
- 4. Use `git config` to identify the user of this repository.
+**4. Use `git config` to identify the user of this repository.**
 ```bash
 $ git config --global user.name "John Doe"
 $ git config --global user.email "jd7539@example.com"
@@ -54,7 +54,7 @@ user.name=John Doe
 user.email=johndoe@example.com
 ```
 
- 5. Now, you can add files to your repository by using `git add`.
+**5. Now, you can add files to your repository by using `git add`.**
 ```bash
 $ git add .
 $ git add *.html  
