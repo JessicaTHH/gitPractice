@@ -8,7 +8,7 @@ The main idea of creating this repository is to practice git command, also READM
 ## What I use for the practice:
 Git v2.19.1 and macOS Sierra v10.12.6
 
-*To check your git version, start your Terminal on mac, and use command 'git version', and it'll show the current version of git you have in your mac.*
+*To check your git version, start your Terminal on mac, and use command **'git version'**, and it'll show the current version of git you have in your mac.*
 ```bash
 $ git version
 git version 2.19.1
