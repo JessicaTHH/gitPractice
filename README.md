@@ -89,7 +89,7 @@ Untracked files:
 ## Not staging all the files?
 By including those files' name in 'gitignore' document, you can select files that you do not wish to stage to the repository.
 
- **1.Create 'gitignore' file by `touch` command.**
+ **1. Create 'gitignore' file by `touch` command.**
  ```bash
  $ touch .gitignore //no need extension for this document.
  ```
@@ -98,21 +98,47 @@ By including those files' name in 'gitignore' document, you can select files tha
 ```bash
 $ touch ignoreme.txt
 ```
-**3. Open 'gitignore' document with text editor, write down the file name you would like git ignore staging.**
-
+**3. Open 'gitignore' document with text editor, write down the file name you would like git ignore staging.**\
+In this case, I'm ignoring the text file 'ignoreme.txt'
+```bash
+ignoreme.txt
+```
 **4. Save the document, and stage files to the repository with `git add .`, and check `git status` to see file status in the repository.**
 ```bash
 $ git add .
 $ git status
 ```
 ---
-After the files has been staged, they will also need to be committed to the repository. \
-To commit files to the repository, I used `git commit -m '(message)'`
+## Commit to the repository!
+
+After files has been staged, they will need to be committed to the repository. \
+There are 2 way of committing files to the repository,
+
+  1)  `git commit -m '(message)'`
+  I use this command almost every time, since it's easier than the another way.
 ```bash
 $ git commit -m 'add gitignore'
 ```
+  2)`git commit -a`
+  If you're committing by using this command, it will look like you've opened another window. It'll show you where you're at in the repository, also what are the modification included in this commitment.\
+  *! To finish and quit the commit command, press [esc] then type ':wq' [enter] to quit edit mode.!*
+```bash
+$ git commit -a
+```
+```bash
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#       modified:   gitignore
+:wq
+```  
 ---
-Before going pushing the repository to github, check again whether there are files that has not been committed to the repository, by using `git status`, you'll get a message telling you which branch you're at, and which files have you not committed yet.
+## Before going further...
+Check `git status`, to see whether all files are committed to the branch, and ready to go on github.
 ```bash
 $ git status
 On branch master
