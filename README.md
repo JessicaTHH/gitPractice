@@ -108,18 +108,18 @@ ignoreme.txt
 $ git add .
 $ git status
 ```
----
+
 ## Commit to the repository!
 
 After files has been staged, they will need to be committed to the repository. \
 There are 2 way of committing files to the repository,
 
-  1)  `git commit -m '(message)'`
+  1)  `git commit -m '(message)'`\
   I use this command almost every time, since it's easier than the another way.
 ```bash
 $ git commit -m 'add gitignore'
 ```
-  2)`git commit -a`
+  2) `git commit -a`\
   If you're committing by using this command, it will look like you've opened another window. It'll show you where you're at in the repository, also what are the modification included in this commitment.\
   *! To finish and quit the commit command, press [esc] then type ':wq' [enter] to quit edit mode.!*
 ```bash
@@ -136,7 +136,7 @@ $ git commit -a
 #       modified:   gitignore
 :wq
 ```  
----
+
 ## Before going further...
 Check `git status`, to see whether all files are committed to the branch, and ready to go on github.
 ```bash
@@ -144,7 +144,9 @@ $ git status
 On branch master
 nothing to commit, working tree clean
 ```
----
+
+
+
 
 add origin
 
