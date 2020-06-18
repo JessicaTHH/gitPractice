@@ -16,7 +16,7 @@ git version 2.19.1
 
 ## Create and modify files:
 
-- 1. Go to desktop, create and open new folder 'gitPractice'
+ 1. Go to desktop, create and open new folder 'gitPractice'
 ```bash
 $ cd desktop
 $ mkdir gitPractice
@@ -28,7 +28,7 @@ $ pwd
 /Users/Spencer/desktop/gitPractice
 ```
 
-2. Create 2 new files, a html file and another javaScript file.
+ 2. Create 2 new files, a html file and another javaScript file.
 ```bash
 $ touch index.html
 $ touch app.js
@@ -37,12 +37,12 @@ $ touch app.js
 *Edit these 2 files in your text editor(atom, vs code, sublime...etc.).*
 
 
-3. To start a new repository, use `git init`, then a message will show if it's been set up successfully.
+ 3. To start a new repository, use `git init`, then a message will show if it's been set up successfully.
 ```bash
 $ git init
 Initialized empty Git repository in /Users/Spencer/Desktop/gitPractice/.git/
 ```
-4. Use `git config` to identify the user of this repository.
+ 4. Use `git config` to identify the user of this repository.
 ```bash
 $ git config --global user.name "John Doe"
 $ git config --global user.email "jd7539@example.com"
@@ -54,7 +54,7 @@ user.name=John Doe
 user.email=johndoe@example.com
 ```
 
-5. Now, you can add files to your repository by using `git add`.
+ 5. Now, you can add files to your repository by using `git add`.
 ```bash
 $ git add .
 $ git add *.html  
@@ -62,7 +62,7 @@ $ git add *.html
 **add .: adding all the files in the folder to the repository.\
 add \*.html: adding all the HTML files in the folder to the repository.**
 
-6. After you've added files to the repository, `git status` will show the status of all files that has been added.
+ 6. After you've added files to the repository, `git status` will show the status of all files that has been added.
 
 ```bash
 $ git status
