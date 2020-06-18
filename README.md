@@ -63,7 +63,7 @@ $ git add *.html
 **add \*.html**: adding all the HTML files in the folder to the repository.
 
 
-**6. **After you've added files to the repository, `git status` will show the status of all files that has been added.
+**6. After you've added files to the repository, `git status` will show the status of all files that has been added.**
 
 ```bash
 $ git status
