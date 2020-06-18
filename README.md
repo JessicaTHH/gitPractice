@@ -16,9 +16,8 @@ git version 2.19.1
 ## Steps to practice git command:
  Steps below are what I used to practice git command for beginners.
 
-*CREATE AND MODIFIED FILES:
-
-
+**Create and modify files:**
+---
 1. Go to desktop, create and open new folder 'gitPractice'
 ```bash
 $ cd desktop
