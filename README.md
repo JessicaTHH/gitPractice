@@ -14,7 +14,7 @@ $ git version
 git version 2.19.1
 ```
 
-## Create and modify files:
+## Create files:
 
  1. Go to desktop, create and open new folder 'gitPractice'
 ```bash
@@ -37,6 +37,8 @@ $ touch app.js
 *Edit these 2 files in your text editor(atom, vs code, sublime...etc.).*
 
 
+## Create repository:
+
  **3. To start a new repository, use `git init`, then a message will show if it's been set up successfully.**
 ```bash
 $ git init
@@ -53,6 +55,8 @@ $ git config --list
 user.name=John Doe
 user.email=johndoe@example.com
 ```
+
+## Adding files to repository:
 
 **5. Now, you can add files to your repository by using `git add`.**
 ```bash
@@ -79,5 +83,47 @@ Untracked files:
 ```
 **There are 3 file stages in git: `untracked`, `staged`, `committed`.**
   1) **Untracked files**- The file is totally new to the repository. It has not been added, neither being committed.
-  2) **Staged**- The file has been added to the repository.
-  3) **Committed**- The file has not only being added to the repository, also it has been committed to the repository.
+  2) **Staged**- The file has been added, but not committed to the repository.
+  3) **Committed**- The file has not only being added, also it has been committed to the repository.
+
+## Not staging all the files?
+By including those files' name in 'gitignore' document, you can select files that you do not wish to stage to the repository.
+
+ **1.Create 'gitignore' file by `touch` command.**
+ ```bash
+ $ touch .gitignore //no need extension for this document.
+ ```
+
+**2. Create a new file(or use existing file) for being included in 'gitignore'**
+```bash
+$ touch ignoreme.txt
+```
+**3. Open 'gitignore' document with text editor, write down the file name you would like git ignore staging.**
+
+**4. Save the document, and stage files to the repository with `git add .`, and check `git status` to see file status in the repository.**
+```bash
+$ git add .
+$ git status
+```
+---
+After the files has been staged, they will also need to be committed to the repository. \
+To commit files to the repository, I used `git commit -m '(message)'`
+```bash
+$ git commit -m 'add gitignore'
+```
+---
+Before going pushing the repository to github, check again whether there are files that has not been committed to the repository, by using `git status`, you'll get a message telling you which branch you're at, and which files have you not committed yet.
+```bash
+$ git status
+On branch master
+nothing to commit, working tree clean
+```
+---
+
+add origin
+
+rm origin
+
+push -u origin master
+
+touch README.md
