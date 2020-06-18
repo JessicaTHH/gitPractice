@@ -189,9 +189,21 @@ $ git merge formerbranch //merging formerbranch with the current branch.
 *The first thing that shows when a viewer is visiting a repository, is READNE documentation.\
 This is why README document should contain  basic info such as the summary of the repository, the guide lines of this repository or any other details that can assist viewers get to know the repository immediately.*
 
-1. To **create a README document**, go to the loactaion that you would want to put README document, then use command `touch`
+1. To **create a README document**, go to the location that you would want to put README document, then use command `touch`
 ```bash
 $ touch README.md
 ```
 2. **Open README.md in text editor**, and start editing the file.
 This [helpful website](https://commonmark.org/help/) get me through formatting my README file. They also provide a [interactive tutorial](https://commonmark.org/help/tutorial/index.html), which is easy to learn and understand what is markdown text file format.
+
+---
+## Last but least...
+
+**always remember 3 steps to finish a project:**
+
+1. `$ git add .` : adding all the completed files to the repository.
+2. `$ git commit -m '(message)' ` : adding the message of final edit.
+3. `$ git push .` : push all the commitment to the remote repository on github.
+
+
+JTHH, 200618
