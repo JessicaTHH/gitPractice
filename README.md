@@ -14,7 +14,7 @@ $ git version
 git version 2.19.1
 ```
 
-##Create and modify files:
+## Create and modify files:
 
 1. Go to desktop, create and open new folder 'gitPractice'
 ```bash
@@ -59,8 +59,8 @@ user.email=johndoe@example.com
 $ git add .
 $ git add *.html  
 ```
-add .: adding all the files in the folder to the repository.\
-add \*.html: adding all the HTML files in the folder to the repository.\
+**add .: adding all the files in the folder to the repository.\
+add \*.html: adding all the HTML files in the folder to the repository.**
 
 6. After you've added files to the repository, `git status` will show the status of all files that has been added.
 
