@@ -62,7 +62,7 @@ $ git add *.html
 **add .: adding all the files in the folder to the repository.\
 add \*.html: adding all the HTML files in the folder to the repository.**
 
- 6. After you've added files to the repository, `git status` will show the status of all files that has been added.
+* 6. After you've added files to the repository, `git status` will show the status of all files that has been added.
 
 ```bash
 $ git status
@@ -77,6 +77,6 @@ Untracked files:
 // a whole new file to the repository.
 ```
 **There are 3 file stages in git: untracked, staged, committed.**\
-  1)**Untracked files**- The file is totally new to the repository. It has not been added, neither being committed.\
-  2)**Staged**- The file has been added to the repository.\
-  3)**Committed**- The file has not only being added to the repository, also it has been committed to the repository.
+  1) **Untracked files**- The file is totally new to the repository. It has not been added, neither being committed.\
+  2) **Staged**- The file has been added to the repository.\
+  3) **Committed**- The file has not only being added to the repository, also it has been committed to the repository.
